@@ -1,0 +1,491 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.table1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    padding-top: 10px;
+    float: right;
+    position: relative;
+    right: 150px;
+    
+   
+
+}
+.table1 a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.menu{
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    height:75px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    
+}
+td {
+    padding-right: 25px;
+}
+td a:hover{
+    color: rgb(41, 122, 230);
+}
+.btnInscription{
+    color:white;
+    background-color: #008AFF;
+    border-radius: 25px;
+    height:40px;
+    width: 180px;
+    border:none;
+}
+.btnInscription:hover{
+    color: aqua;
+    background-color: white;
+}
+.nav{
+    float: left;
+    height: 850px;
+    width: 250px;
+    background-color: white;
+    border: black;
+    
+}
+.image{
+   
+    border-radius: 50%;
+    border: solid 4px #0288F7;
+    text-align: center;
+    margin-top:90px ;
+    margin-left:65px ;
+}
+.email{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px ;
+    margin-top:10px ;
+
+}
+.nav2{
+    background-color:#0288F7 ;
+    float: left;
+    height: 2px;
+    width: 180px;
+    margin-top:20px ;
+    margin-left:35px ;
+}
+.title{
+    margin-left:20px ;
+    margin-top:40px ;
+    
+}
+.nav3{
+    background-color:#0288F7 ;
+    float: left;
+    height: 2px;
+    width: 180px;
+    margin-top:20px ;
+    margin-left: 18px ;
+}
+.btnInscription1{
+    float: left;
+    font-size: 20px;
+    margin-top: 48px;
+    margin-left: 20px;
+    color:white;
+    border-radius: 25px;
+    height:40px;
+    width: 170px;
+    border-color: white;
+    background-color: #0288F7;
+    border: none;
+}
+.btnInscription1:hover{
+    color: black;
+    background-color: rgb(156, 185, 238);
+}
+.nav4{
+    float: right;
+    height: 833px;
+    width: 1269px;
+    background-color:#E8E2E2;
+    margin-top:0px ;
+
+}
+.P1{
+    background-color: white;
+    border:solid 1px black;
+    height:300px ;
+    width:500px ;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 9%;
+}
+.f{
+    background-color: #8BB1DD;
+   
+    height:70px ; 
+    width:140px ;
+    margin-top:40px ;
+   border-radius: 50%;
+    margin-left:30px ;
+    }
+    #N1{
+        position: relative;
+        top: -45px;
+        margin-left:65px ;
+        color: white;
+        
+    }
+    .l{
+        background-color: #ADC6E5;
+        height:70px ; 
+        width:140px ;
+        margin-top:-10px ;
+       border-radius: 50%;
+        margin-left:30px ;
+        }
+    #N2{
+         position: relative;
+         top: -45px;
+         margin-left:80px ;
+         color: white;
+            
+        }
+    .E{
+         background-color: #C7D7EC;
+           
+         height:70px ; 
+         width:140px ;
+         margin-top:-10px ;
+         border-radius: 50%;
+         margin-left:30px ;
+            }
+    #N3{
+         position: relative;
+         top: -45px;
+         margin-left:75px ;
+         color: white;}
+    .F1{
+        position: relative;
+        top:-225px ;
+        left:200px ;
+    }
+    .F2{
+        position: relative;
+        top:-150px ;
+        left:125px ;
+    }
+    .F3{
+        position: relative;
+        top:-70px ;
+        left:50px ;
+    }          
+    #NOM1{
+        position: relative;
+        top:-260px ;
+        left:290px ;
+        font-size: 21px;
+    }     
+          
+    #NOM2{
+         position: relative;
+         top:-210px ;
+         left:290px ;
+         font-size: 21px;
+}     
+#NOM3{
+    position: relative;
+    top:-150px ;
+    left:290px ;
+    font-size: 21px;
+}                
+
+    .P2{
+        background-color: white;
+        border:solid 1px black;
+        height:300px ;
+        width:500px ;
+        float: right;
+        margin-right: 100px;
+        margin-top: 100px;
+        border-radius: 9%;
+
+    }
+    #c1{
+        height:250px ;
+        width:40px ;
+        border:solid 1px black ;
+        margin-top:49px ;
+        margin-left:35px ;
+    }
+    #C11{
+        margin-top:-220px ;
+        margin-left:45px ;
+    }
+    #c12{
+        background-color:black ;
+        float: left;
+        height: 0.5px;
+        width: 40px;
+        margin-top:-55px ;
+        margin-left: 35px ;
+    }
+    #c13{
+        background-color:black ;
+        float: left;
+        height: 0.5px;
+        width: 40px;
+        margin-top:-140px ;
+        margin-left: 35px ;
+
+    }
+    #c2{
+        height:220px ;
+        width:40px ;
+        
+        margin-top:-203px ;
+        margin-left:120px ;
+        background-color:#31DBF6
+
+    }
+    #c3{
+        height:130px ;
+        width:40px ;
+        
+        margin-top:-130px ;
+        margin-left:190px ;
+        background-color:#215085
+
+    }
+    #c4{
+        height:240px ;
+        width:40px ;
+        
+        margin-top:-240px ;
+        margin-left:260px ;
+        background-color:#485AE6
+
+
+    }
+    #c5{
+        height:30px ;
+        width:40px ;
+        
+        margin-top:-30px ;
+        margin-left:330px ;
+        background-color :#A8C2F6
+
+    }
+    #SYM{
+        margin-left: 400px;
+        margin-top:-260px ;
+    }
+    #c21{
+        height:15px ;
+        width:15px ;
+
+        top:-199px ;
+       position: relative;
+        margin-left:470px ;
+        background-color :#A8C2F6
+
+    }
+    #c31{height:15px ;
+        width:15px ;
+
+        top:-160px ;
+       position: relative;
+        margin-left:470px ;
+        background-color :#215085
+        
+
+    }
+    #c41{
+        height:15px ;
+        width:15px ;
+
+        top:-120px ;
+       position: relative;
+        margin-left:470px ;
+        background-color :#485AE6
+
+    }
+    #c51{
+        height:15px ;
+        width:15px ;
+
+        top:-80px ;
+       position: relative;
+        margin-left:470px ;
+        background-color :#31DBF6
+
+    }
+    .footer{
+        background-color:black;
+        width: 100%;
+        height: 70px;
+        margin-top:825px;
+      
+    }
+    
+    .table4{
+        color: #666666;
+        text-align: right;
+        width: 100%; 
+        font-family: montserrat;
+        letter-spacing: 0.08em;
+    }
+    
+    .last{
+        float:right;
+        top:-15px ;
+        position: relative;
+    }
+    
+    .copy{
+        margin-right: -50px;
+    }
+    .supp{
+        color:rgb(41, 122, 230);
+    }
+    
+    .contact{
+        float:left;
+    }
+    .P3{
+        background-color: white;
+        border:solid 1px black;
+        height:300px ;
+        width:600px ;
+        
+        margin-left:350px ;
+        margin-top: 480px;
+        border-radius: 9%;
+
+    }
+    .im{
+        margin-top:11px ;
+    }
+    #JR{
+        position: relative;
+        top:-240px ;
+        font-size:10px ;
+        left: 120px;
+        text-align: center;
+    }
+#A1{
+    height:15px ;
+    width:15px ;
+
+    top:-470px ;
+   position: relative;
+    margin-left:570px ;
+    background-color :#5B9BD5
+}
+#A2{
+    height:15px ;
+    width:15px ;
+
+    top:-450px ;
+   position: relative;
+    margin-left:570px ;
+    background-color :#8BB1DD
+}
+#A3{
+    height:15px ;
+    width:15px ;
+
+    top:-430px ;
+   position: relative;
+    margin-left:570px ;
+    background-color :#ADC6E5
+}
+#A4{
+    height:15px ;
+    width:15px ;
+
+    top:-410px ;
+   position: relative;
+    margin-left:570px ;
+    background-color :#538EC3
+}
+#A5{
+    height:15px ;
+    width:15px ;
+
+    top:-390px ;
+   position: relative;
+    margin-left:570px ;
+    background-color :#C7D7EC
+}
+#A6{
+    height:15px ;
+    width:15px ;
+
+    top:-370px ;
+   position: relative;
+    margin-left:570px ;
+    background-color :#3F6D98
+}
+#A7{
+    height:15px ;
+    width:15px ;
+
+    top:-350px ;
+   position: relative;
+    margin-left:570px ;
+    background-color :#4A7FB0
+}
+#pos{
+    margin-top:50px ;
+}
+.incon1{
+    position: relative;
+    left:1350px ;
+    top:-15 ;
+ 
+ 
+}
+.incon2{
+    position: relative;
+    left:1370px ;
+    top:-15px ;
+ 
+ 
+}   
+.incon3{
+    position: relative;
+    left:1390px ;
+    top:-15px ;
+ 
+ 
+}
+.incon4{
+    position: relative;
+    left:1410px ;
+    top:-15px ;
+ 
+ 
+}
+.information{
+    margin-top:40px ;
+}
+#srch{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+   
+
+   
+
+

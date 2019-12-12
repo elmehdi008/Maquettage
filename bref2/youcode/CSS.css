@@ -1,0 +1,397 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url('A.png');
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height: 520px;
+    margin-top: -20px;
+}
+.table1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    padding-top: 10px;
+    float: right;
+    position: relative;
+    right: 150px;
+   
+
+}
+.table1 a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    height:75px;
+    width: 100%;
+    position:fixed;
+    top:0;
+}
+
+.image1{
+    margin-left: 130px;
+    margin-right: 80px; 
+    padding-top: 10px;
+    float: left;
+    
+
+}
+
+ td {
+    padding-right: 25px;
+}
+td a:hover{
+    color: rgb(41, 122, 230);
+}
+td :hover{
+    color: rgb(41, 122, 230);
+}
+.btnInscription{
+    color:white;
+    background-color: #008AFF;
+    border-radius: 25px;
+    height:40px;
+    width: 180px;
+    border:none;
+}
+.btnInscription:hover{
+    color: aqua;
+    background-color: white;
+}
+
+.Class1{
+    color: white;
+    font-size: 40px;
+    padding-top:170px;
+    margin-left: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Class2{
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnInscription2{
+    float: left;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 130px;
+    color:white;
+    border-radius: 25px;
+    height:50px;
+    width: 170px;
+    border-color: white;
+    background: none;
+    
+}
+.btnInscription2:hover {
+    color: black;
+    background-color: white;
+    
+}
+.Ecole{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 9px;
+    color:white;
+    border-radius: 30px;
+    height:50px;
+    width: 260px;
+    border : none;
+    background-color: #008AFF;
+  
+}
+.Ecole:hover {
+    color:black;
+    background-color: white;
+    
+}
+
+.icon2{
+    z-index: 1;
+    padding-top:30px;
+    margin-left: -240px;
+}
+
+ #titre1 {
+    margin-top: 90px;
+    font-size: 40px;
+    font-family: Montserrat;
+    text-align: center;
+
+}
+
+pre{
+    font-size: 19px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: lighter;
+    font-weight: 100;
+}
+
+.icons{
+    margin-left: 370px;
+    margin-top: 35px;
+}
+
+.icon{
+    margin-right: 330px;
+}
+
+
+h4{
+font-size: 25px;
+letter-spacing: 0.08em;
+color: rgb(92, 91, 91);
+margin-bottom: 35px;
+
+}
+
+.parag{
+    display:flex;
+    text-align:center;
+ 
+}
+
+.parag1{
+    margin-top:30px;
+    margin-left:200px;
+    margin-bottom: 30px;   
+    width: 350px;
+    line-height: 25px;
+}
+
+.parag2{
+    margin-top:30px;
+    margin-left:50px;
+    margin-bottom: 30px;
+    width: 350px;
+    line-height: 25px;
+}
+
+.parag3{
+    margin-top:30px; 
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 350px;
+    line-height: 25px;
+}
+
+.imageleft{
+    margin-top:70px;
+    float:left;
+}
+
+.paragright{
+    margin-top:70px;
+    width:750px;
+     height:450px;
+     float: right;
+     background-color: rgb(14, 112, 197);
+}
+
+.titre1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Montserrat';
+    margin-top: 50px;
+    font-weight: 600px;
+}
+
+.titre2{
+    margin-top:30px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family:italic;
+}
+
+.parag4{
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:30px;
+    color: white;
+    font-size: 15px;
+    font-family:Montserrat;
+    line-height: 28px;
+}
+
+.Partie2{
+    margin-top : 700px;
+    background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,4)) ,url('C.png');
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pow{
+    margin-left:710px;
+    color: #008AFF;
+    font-size: 20px;
+    margin-top: -400px;
+    font-weight: 500;
+    
+}
+
+.simp{
+    color: white;
+    font-size: 60px;
+    margin-left: -45px;
+}
+
+
+.blue{
+    background-color:#008AFF;
+    height: 300px;
+    width:100%;
+    margin-top: 220px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-left:150px ;
+    margin-top: 40px; ;
+}
+
+.paragTab{
+    margin-top:70px;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding-left:150px;
+}
+
+.lastparag{
+    font-size: 15px;
+    margin-left:70px;
+    font-family: montserrat;
+    margin-top:100px;
+    letter-spacing: 0.08em;
+    line-height: 40px;
+    margin-right: 70px;
+}
+
+.ocp{
+    margin-top: 200px;
+    font-size: 40px;
+    text-align:center;
+    font-family: montserrat;
+}
+
+.imOcp{
+    text-align: center;
+    margin-top: 10px;
+}
+.table3{
+    width:100%;
+     text-align:center;
+      margin-top:90px;
+}
+
+.btnInscription3{
+    color:white;
+    background-color: #008AFF;
+    border-radius: 20px;
+    height:40px;
+    width: 600px;
+    border: none;
+    box-shadow: 0px 0px 35px -6px rgb(104, 168, 221);
+    margin-right: -140px;
+
+}
+.btnInscription3:hover{
+    color: black;
+    background-color: white;
+}
+
+.insc{
+    text-align: center;
+    font-family: montserrat;
+    font-size: 30px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    margin-top:60px;
+  
+}
+
+.table4{
+    color: #666666;
+    text-align: right;
+    width: 100%; 
+    font-family: montserrat;
+    letter-spacing: 0.08em;
+}
+
+.last{
+    float:right;
+    top:-15px ;
+    position: relative;
+}
+
+.copy{
+    margin-right: -50px;
+}
+.supp{
+    color:rgb(41, 122, 230);
+}
+
+.contact{
+    float:left;
+}
+
+.incon1{
+    position: relative;
+    left:1350px ;
+    top:-15px ;
+ 
+ 
+}
+.incon2{
+    position: relative;
+    left:1370px ;
+    top:-15px ;
+ 
+ 
+}   
+.incon3{
+    position: relative;
+    left:1390px ;
+    top:-15px ;
+ 
+ 
+}
+.incon4{
+    position: relative;
+    left:1410px ;
+    top:-15px ;
+ 
+ 
+}
+
+         
