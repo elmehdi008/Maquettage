@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+               }
+   .header{
+    height: 10%;
+   background:black;
+   color: #fff;
+   position: fixed; 
+   z-index: 1; 
+   width: 100%;
+   
+   }
+   .header a:hover{
+                 
+   color: #41B9FE;
+       
+   }
+   
+   .header img{
+   height: 50%;
+   margin-top: 10px;
+   margin-left: 50px;
+   }
+   .menu{
+    display: flex;
+    flex-direction : row;
+    margin-left: 500px;
+    margin-top: -30px;
+    }
+           
+   .menu a{
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 0 15px;
+   transition: 0.4s;
+                   }
+   .show-menu-btn,.hide-menu-btn{
+     transition: 0.4s;
+     font-size: 30px;
+     cursor: pointer;
+     display: none;
+   }
+   .show-menu-btn{
+     float: right;
+   }
+   .show-menu-btn i{
+     line-height: 100px;
+   }
+   .menu a:hover,
+   .show-menu-btn:hover,
+   .hide-menu-btn:hover{
+     color: #41B9FE;
+   }
+   
+   #chk{
+     position: absolute;
+     visibility: hidden;
+   }
+   button{
+       
+       background-color:#038DFE;
+       box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+       color: white;
+       font-size: 15px;
+       border: 0px;
+       margin-top: -10px;
+       padding: 10px; 
+       border-radius: 20px;
+       width: 150px;
+       font-family: 'Raleway', sans-serif;
+       text-transform: up10ercase;
+       font-weight: 500;
+       transition: all 0.3s ease 0s;
+   }
+   
+   button:hover {
+     background-color: white;
+     box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+     color: #57A9EC;
+     transform: translateY(-7px);
+   }
+   .ImageHeader img {
+         width: 100%;
+         height: 400px;
+       }
+   
+   .ImageHeader .Para1{
+       font-size: 30px;
+       margin-top: -200px; 
+       
+   }
+   
+    .ImageHeader p{
+       margin-left: 200px;
+       color: white;
+       font-weight:100;   
+   }
+   
+   .inputBtn{
+       background-color: Transparent; 
+       box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+       border-color: white;
+       color: white;
+       font-size: 15px;
+       margin-left: 200px;
+       margin-top: 10px;
+       padding: 13px; 
+       border-radius: 20px;
+       width: 150px;
+       font-family: 'Roboto', sans-serif;
+       text-transform: uppercase;
+       font-weight: 500;
+       transition: all 0.3s ease 0s;
+       
+   }
+   
+   .inputBtn:hover {
+     background-color: white;
+     box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+     color:gray;
+     transform: translateY(-7px);
+   }
+   
+   .B2{
+       background-color: #038DFE;
+       box-shadow: 0px 8px 15px rgba(0,0,128, 0.3);
+       color: white;
+       font-size: 15px;
+       padding: 13px; 
+       border-radius: 20px;
+       width: 200px;
+       font-family: 'Roboto', sans-serif;
+       text-transform: uppercase;
+       font-weight: 500;
+       transition: all 0.3s ease 0s;
+   }
+   .B2:hover {
+     background-color: white;
+     box-shadow: 0px 15px 20px rgba(0,0,128, 0.3);
+     color:gray;
+     transform: translateY(-7px);
+   }
+   .P1{
+       margin-top: 100px;
+       font-size: 20px;
+       font-family: Montserrat;
+       text-align: center;
+       line-height: 25px;
+   }
+   .Partie1{
+       display: flex;
+       flex-direction: row;
+      
+   }
+   .p2{
+    margin-top: 30px;
+    margin-left: 10px;
+     width:100%;
+     height:350px;
+     float: right;
+     background-color: #008AFF;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size:20px ;
+     color: white;
+     border-radius: 30%;
+     
+}
+#p3{ 
+    text-align: center;
+    margin-top:120px ;
+}
+.Partie2{
+       display: flex;
+       flex-direction: row;
+      
+   }
+   .imageright{
+    margin-left: 120px;
+}
+.p4{
+     margin-top: 20px;
+     margin-right: -100px;
+     width:100%;
+     height:350px;
+     float: left;
+     background-color: #008AFF;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size:20px ;
+     color: white;
+     border-radius: 30%;
+    }
+
+     #p5{ 
+        text-align: center;
+        margin-top:120px ;
+    }
+    .Partie3{
+        display: flex;
+        flex-direction: row;
+    }
+    .p6{
+        margin-top: 30px;
+      margin-left: 10px;
+     width:100%;
+     height:350px;
+     float: right;
+     background-color: #008AFF;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size:20px ;
+     color: white;
+     border-radius: 30%;
+    }
+    #p7{ 
+    text-align: center;
+    margin-top:120px ;
+}
+footer{
+  height: 100px;
+  background-color: #000;
+}
+.foo{
+  padding-top: 20px;
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.foo1,.foo2,.foo3{
+  width: 33%;
+  
+}
+.foo1 > p {
+  color: #8f9296;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+  text-align: left;
+  line-height: 1.7;
+  font-family: 'Montserrat';
+  letter-spacing: 0.08em;
+}
+.foo2 > p {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+  line-height: 1.7;
+  font-family: 'Montserrat';
+  letter-spacing: 0.08em;
+}
+.foo3 > p {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  text-align: right;
+  line-height: 1.7;
+  font-family: 'Montserrat';
+  letter-spacing: 0.08em;
+}
+.icons
+{
+  text-align: right;
+}
+.icons > a
+{
+  display: inline;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: right;
+  line-height: 35px;
+  margin-right: 13px;
+}
+.mail > a{
+  color: #337ab7;
+  text-decoration: none;
+}
+   @media screen and (max-width:900px) {
+  .show-menu-btn,.hide-menu-btn{
+    display: block;
+    margin-top: -20px;
+  }
+  .menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+    flex-flow: column wrap;
+  }
+  .menu a{
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #chk:checked ~ .menu{
+    right: 0;
+    
+  }
+  button{
+    margin-left: 270px;
+    margin-top: 20px;
+    }
+    .inputBtn{
+        margin-left: 50px;
+        margin-top: 10px;
+      }
+      .B2{
+        margin-left: 50px;
+        margin-top: 5px;
+      }
+ .ImageHeader p{
+    margin-left: 50px;
+    
+}
+.ImageHeader img{
+    height: 450px;
+}
+
+.imageleft1{
+    width: 100%;
+   
+  }
+ .Partie1{
+     flex-direction: column;
+ }
+ .Partie2{
+       flex-direction: column;
+      
+   }
+   .imageright{
+    width: 100%;
+    margin-left: 0px;
+   
+  }
+  .Partie3 {
+    flex-direction: column;
+  }
+footer{
+    height: 200px;
+}
+.foo{
+    display: block;
+}
+.foo1,.foo2,.foo3{
+    width: 100%;
+}
+.icons,.foo3 > p,.foo2 > p ,.foo1 > p,.mail
+{
+    text-align: center;
+} 
+.icons{
+  margin-left: 20px;
+}     
+
+.paragright{
+  width: 100%;
+} 
+}
