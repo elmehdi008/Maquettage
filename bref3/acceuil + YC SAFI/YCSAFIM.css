@@ -312,8 +312,9 @@ footer{
     
   }
   button{
-    margin-left: 270px;
+    margin-left: auto;
     margin-top: 20px;
+    margin-right: auto;
     }
     .inputBtn{
         margin-left: 50px;

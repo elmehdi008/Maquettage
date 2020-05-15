@@ -53,7 +53,7 @@
    .menu a:hover,
    .show-menu-btn:hover,
    .hide-menu-btn:hover{
-     color: #06b12b;
+     color: #0288F7;
    }
    
    #chk{
@@ -166,9 +166,9 @@ button:hover {
 .nav4{
     float: right;
     height: 833px;
-    width: 1269px;
+    width: 1230px;
     background-color:#E8E2E2;
-    margin-top:0px ;
+   
 
 }
 .P1{
@@ -615,26 +615,26 @@ footer{
       margin-top: 5px;
     }
       
-    button{
-      margin-left: 180px;
-      margin-top: 20px;
-      }
+      
+  button{
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
+    }
    .ImageHeader p{
       margin-left: 50px;
       
   }
   .nav{
-      width: 100%;    
-  }
-  .nav2{
-
-    width: 50%;
-    margin-left:120px;
+    width: 100%;    
 }
-    .nav3{
+.nav2{
+  width: 100%; 
+}
+.nav3{
 
-    width: 50%;
-    margin-left:120px ;
+  width: 100%;
+  
 }
      .image{
    
@@ -647,9 +647,7 @@ footer{
  .Sr{
    text-align: center;
  }
- .title{
-     text-align: center;
- }
+ 
      .P1{
 visibility: hidden;
    
@@ -745,3 +743,35 @@ background-color :#4A7FB0
      
 
 }
+
+
+
+@media screen and (max-width:1484px) {
+     
+     .nav{
+         width: 100%;    
+     }
+     .nav2{
+       width: 100%; 
+   }
+     .nav3{
+   
+       width: 100%;
+       
+   }
+
+.btnInscription1{
+    float: none;
+}    
+.Sr{
+    text-align: center;
+  }  
+  .image{
+   
+
+    margin-left:auto;
+    margin-right: auto;
+}
+   
+   }
+   

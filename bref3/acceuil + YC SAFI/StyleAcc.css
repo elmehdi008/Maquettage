@@ -52,7 +52,7 @@ transition: 0.4s;
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
-  color: #06b12b;
+  color: #038DFE;
 }
 
 #chk{
@@ -484,8 +484,9 @@ footer{
   }
     
   button{
-    margin-left: 180px;
+    margin-left: auto;
     margin-top: 20px;
+    margin-right: auto;
     }
  .ImageHeader p{
     margin-left: 50px;
